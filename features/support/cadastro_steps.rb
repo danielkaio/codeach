@@ -1,14 +1,14 @@
 Dado('que acesso a página de cadastro') do
-   visit "https://www.google.com.br/"
+   visit "https://github.com/login"
    sleep 10
   end
   
   Quando('submeto o meu cadastro completo') do
-    pending # Write code here that turns the phrase above into concrete actions
+    find("#login_field").set "dani.ajala@yahoo.com"
+    find("#password").set "Rosa123abc@"
+    click_button "Sign in"
+    
+    sleep 10
   end
-  
-  Então('sou redirecionado para o Dashboard') do
-    pending # Write code here that turns the phrase above into concrete actions
-  end
-  
-  
+
+

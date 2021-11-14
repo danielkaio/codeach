@@ -1,12 +1,12 @@
 #language: pt
-
+@cadastro
 Funcionalidade:Cadastro
-    Sendo um músico que possui equipamentos musicais
-    Quero fazer o meu cadastro no RockLov
-    Para que eu possa disponibilizá-los para locação
-    @temp
+    Sendo um programador que possui projetos
+    Quero fazer o meu cadastro no github
+    Para que eu possa disponibilizar meus projetos
+    
     Cenario: Fazer cadastro
 
         Dado que acesso a página de cadastro
         Quando submeto o meu cadastro completo
-        Então sou redirecionado para o Dashboard
+        Então consigo ver meus trabalhos
