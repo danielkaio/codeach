@@ -12,3 +12,8 @@ Dado('que acesso a página de cadastro') do
   end
 
 
+  Então('consigo ver meus trabalhos') do
+    expect(page).to have_css "#repos-container"
+  end
+  
+
