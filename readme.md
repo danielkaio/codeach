@@ -1,0 +1,1 @@
+# instale as gems necessárias usando bundle install
